@@ -1,24 +1,17 @@
-# CLMS Fullstack — Original Frontend + Backend
+# GitHub Repository Manager V3
 
-This package combines the original frontend and backend into one deployable application. The original frontend UI/components are kept as-is; only the API base is changed to same-origin `/api/v1` so no Render/Railway API URL is hardcoded into the frontend.
+## Vercel deployment
 
-## Architecture
-- Frontend: Vite/React (built into `backend/public`)
-- Backend: NestJS
-- Database: PostgreSQL/Neon through backend only
-- API: same-origin `/api/v1`
-- No bank API or payment gateway is included.
+1. Upload/import this entire project. The Vercel Root Directory must be the folder containing `package.json` and `app/`.
+2. Vercel automatically detects Next.js.
+3. Add Environment Variable:
+   `GITHUB_TOKEN=YOUR_TOKEN`
+4. Redeploy.
 
-## Render
-Build Command:
-```
-npm ci && npm run build
-```
-Start Command:
-```
-npm start
-```
+## Important
 
-Required backend environment variables are listed in `.env.example` and `backend/.env.example`. Keep all secrets in Render Environment Variables.
+Do not use `NEXT_PUBLIC_GITHUB_TOKEN`.
 
-The build runs Prisma migrations and the idempotent admin seed, then installs the Puppeteer headless shell.
+Replace All creates a new Git tree containing only the ZIP files, creates a normal commit whose parent is the previous commit, and moves the default branch to it. Thus old files disappear from the current branch while Git history remains.
+
+The ZIP must be a normal project ZIP. Do not include node_modules or .next unless needed.

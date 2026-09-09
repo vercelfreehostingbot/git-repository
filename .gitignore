@@ -1,6 +1,0 @@
-node_modules/
-frontend/dist/
-backend/dist/
-backend/public/
-.env
-frontend/.env.local

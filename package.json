@@ -1,15 +1,27 @@
 {
-  "name": "clms-fullstack",
-  "version": "1.0.0",
+  "name": "github-repo-manager-v3",
+  "version": "3.0.0",
   "private": true,
-  "scripts": {
-    "build": "npm run build:frontend && npm run build:backend",
-    "build:frontend": "npm --prefix frontend ci --include=dev && npm --prefix frontend run build && rm -rf backend/public && cp -r frontend/dist backend/public",
-    "build:backend": "npm --prefix backend ci --include=dev && cd backend && npx prisma generate && npx prisma migrate deploy && npm run seed && npx puppeteer browsers install chrome-headless-shell && npm run build",
-    "start": "npm --prefix backend run start:prod",
-    "seed": "npm --prefix backend run seed"
-  },
   "engines": {
-    "node": ">=20 <25"
+    "node": ">=20 <23"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@octokit/rest": "^21.1.0",
+    "adm-zip": "^0.5.16",
+    "next": "^15.5.24",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.5",
+    "@types/node": "^20.14.15",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.5.4"
   }
 }
