@@ -1,0 +1,16 @@
+{
+  "pageTitle": "Login",
+  "emailLabel": "Email address",
+  "emailPlaceholder": "example@gmail.com",
+  "passwordLabel": "Password",
+  "forgot": "Forgot password?",
+  "submit": "Sign in",
+  "submitting": "Signing in...",
+  "footer": "Having trouble? Contact your system administrator",
+  "show": "Show",
+  "hide": "Hide",
+  "errorRequired": "Email and password are required",
+  "errorInvalid": "Invalid email or password",
+  "mpName": "Md. Rokon Uddin Babul",
+  "mpTitle": "Member of Parliament, 17 Lalmonirhat-2"
+}

@@ -1,0 +1,16 @@
+{
+  "pageTitle": "লগইন",
+  "emailLabel": "ইমেইল ঠিকানা",
+  "emailPlaceholder": "example@gmail.com",
+  "passwordLabel": "পাসওয়ার্ড",
+  "forgot": "পাসওয়ার্ড ভুলে গেছেন?",
+  "submit": "লগইন করুন",
+  "submitting": "লগইন হচ্ছে...",
+  "footer": "সমস্যা হলে সিস্টেম প্রশাসকের সাথে যোগাযোগ করুন",
+  "show": "দেখান",
+  "hide": "লুকান",
+  "errorRequired": "ইমেইল ও পাসওয়ার্ড আবশ্যক",
+  "errorInvalid": "ভুল ইমেইল অথবা পাসওয়ার্ড",
+  "mpName": "মো. রোকন উদ্দিন বাবুল",
+  "mpTitle": "সংসদ সদস্য, ১৭ লালমনিরহাট-২"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "সাধারণ সেটিংস",
+  "subtitle": "থিম, ভাষা ও নিরাপত্তা",
+  "appearance": {
+    "title": "থিম",
+    "darkMode": "ডার্ক মোড",
+    "darkModeDescription": "হালকা ও গাঢ় থিমের মধ্যে পরিবর্তন করুন"
+  },
+  "language": {
+    "title": "ভাষা"
+  }
+}

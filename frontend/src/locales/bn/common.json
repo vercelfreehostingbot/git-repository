@@ -1,0 +1,22 @@
+{
+  "appNameShort": "ইসিএমএস",
+  "appNameFull": "নির্বাচনী আসন ব্যবস্থাপনা সিস্টেম",
+  "officeTitle": "মাননীয় সংসদ সদস্য-এর কার্যালয়",
+  "constituency": "১৭ লালমনিরহাট-২",
+  "notifications": "নোটিফিকেশন",
+  "noPendingApprovals": "কোনো অনুমোদন অপেক্ষমাণ ভাউচার নেই",
+  "pendingIncomeVouchers": "{{count}}টি আয়ের ভাউচার অনুমোদনের অপেক্ষায়",
+  "pendingExpenseVouchers": "{{count}}টি ব্যয়ের ভাউচার অনুমোদনের অপেক্ষায়",
+  "clickToReview": "পর্যালোচনা করতে ক্লিক করুন",
+  "save": "সংরক্ষণ করুন",
+  "saving": "সংরক্ষণ হচ্ছে...",
+  "cancel": "বাতিল করুন",
+  "delete": "মুছে ফেলুন",
+  "edit": "সম্পাদনা করুন",
+  "loading": "লোড হচ্ছে...",
+  "languageToggle": "বাংলা",
+  "logout": "লগ আউট",
+  "openSidebar": "সাইডবার খুলুন",
+  "comingSoon": "এই ফিচারটি শীঘ্রই আসছে",
+  "copyright": "© {{year}} নির্বাচনী আসন ব্যবস্থাপনা সিস্টেম। সর্বস্বত্ব সংরক্ষিত।"
+}

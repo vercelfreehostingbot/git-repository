@@ -1,0 +1,125 @@
+{
+  "title": "ব্যয়ের ভাউচার",
+  "subtitle": "সকল ব্যয়ের ভাউচার পরিচালনা ও ট্র্যাক করুন",
+  "newVoucher": "নতুন ব্যয়ের ভাউচার",
+  "admin": "অ্যাডমিন",
+  "stats": {
+    "totalVouchers": "মোট ভাউচার",
+    "totalAmount": "মোট পরিমাণ",
+    "todayVouchers": "আজকের মোট ভাউচার",
+    "todayAmount": "আজকের মোট পরিমাণ"
+  },
+  "search": {
+    "label": "ভাউচার খুঁজুন",
+    "placeholder": "ভাউচার নম্বর, খাত বা বিবরণ দিয়ে খুঁজুন",
+    "button": "খুঁজুন"
+  },
+  "filter": {
+    "dateRange": "তারিখের পরিসর",
+    "selectDateRange": "তারিখের পরিসর নির্বাচন করুন",
+    "operator": "অপারেটর",
+    "allOperators": "সকল অপারেটর",
+    "reset": "রিসেট",
+    "status": "স্ট্যাটাস",
+    "allStatuses": "সকল স্ট্যাটাস",
+    "pending": "অপেক্ষমাণ",
+    "approved": "অনুমোদিত",
+    "rejected": "প্রত্যাখ্যাত"
+  },
+  "dateRangeModal": {
+    "title": "তারিখের পরিসর নির্বাচন করুন",
+    "today": "আজ",
+    "yesterday": "গতকাল",
+    "last7": "গত ৭ দিন",
+    "month": "চলতি মাস",
+    "lastmonth": "গত মাস",
+    "year": "চলতি বছর",
+    "lastyear": "গত বছর",
+    "custom": "কাস্টম পরিসর",
+    "reset": "রিসেট",
+    "cancel": "বাতিল",
+    "apply": "প্রয়োগ করুন",
+    "noDateSelected": "কোনো তারিখ নির্বাচিত নয়",
+    "from": "থেকে",
+    "to": "পর্যন্ত",
+    "pickEndDate": "শেষ তারিখ নির্বাচন করুন",
+    "days": "({{count}} দিন)"
+  },
+  "table": {
+    "sl": "ক্রম",
+    "voucherNo": "ভাউচার নং",
+    "date": "তারিখ",
+    "operator": "তৈরি করেছেন",
+    "description": "বিবরণ",
+    "source": "খাত",
+    "amount": "পরিমাণ",
+    "action": "কার্যক্রম",
+    "showingEntries": "{{total}} টি ভাউচারের মধ্যে {{from}} থেকে {{to}} টি দেখানো হচ্ছে",
+    "noResults": "আপনার অনুসন্ধানের সাথে মিলে এমন কোনো ভাউচার নেই।",
+    "show": "দেখান",
+    "entries": "টি এন্ট্রি",
+    "loading": "লোড হচ্ছে...",
+    "refreshing": "রিফ্রেশ হচ্ছে...",
+    "downloadPdf": "PDF ডাউনলোড করুন",
+    "downloadSummary": "সারসংক্ষেপ ডাউনলোড",
+    "printSummary": "সারসংক্ষেপ প্রিন্ট",
+    "comingSoon": "এই ফিচারটি শীঘ্রই আসছে",
+    "status": "স্ট্যাটাস"
+  },
+  "pagination": {
+    "pageOf": "পাতা {{page}} এর {{totalPages}}"
+  },
+  "errors": {
+    "loadFailed": "ভাউচার লোড করা যায়নি।",
+    "retry": "আবার চেষ্টা করুন"
+  },
+  "toast": {
+    "voucherCreated": "ভাউচার {{voucherNumber}} সফলভাবে তৈরি হয়েছে",
+    "voucherUpdated": "ভাউচার {{voucherNumber}} সফলভাবে হালনাগাদ হয়েছে",
+    "voucherDeleted": "ভাউচার সফলভাবে মুছে ফেলা হয়েছে",
+    "voucherApproved": "ভাউচার সফলভাবে অনুমোদিত হয়েছে",
+    "voucherRejected": "ভাউচার প্রত্যাখ্যাত হয়েছে"
+  },
+  "form": {
+    "createTitle": "নতুন ব্যয়ের ভাউচার",
+    "editTitle": "ব্যয়ের ভাউচার সম্পাদনা করুন",
+    "date": "তারিখ",
+    "amount": "পরিমাণ",
+    "amountPlaceholder": "যেমন: ১০০০০.০০",
+    "expenseHead": "ব্যয়ের খাত",
+    "expenseHeadPlaceholder": "যেমন: বিদ্যুৎ বিল",
+    "description": "বিবরণ",
+    "descriptionPlaceholder": "বিস্তারিত বিবরণ লিখুন",
+    "reference": "রেফারেন্স",
+    "referencePlaceholder": "রেফারেন্স নম্বর বা নোট",
+    "cancel": "বাতিল",
+    "create": "ভাউচার তৈরি করুন",
+    "creating": "তৈরি হচ্ছে...",
+    "saveChanges": "পরিবর্তন সংরক্ষণ করুন",
+    "saving": "সংরক্ষণ হচ্ছে...",
+    "errors": {
+      "required": "সব ঘর পূরণ করুন।",
+      "invalidAmount": "সঠিক পরিমাণ লিখুন।",
+      "futureDate": "ভাউচারের তারিখ ভবিষ্যতের হতে পারবে না।"
+    }
+  },
+  "detail": {
+    "title": "ভাউচারের বিস্তারিত",
+    "close": "বন্ধ করুন",
+    "createdAt": "তৈরির সময়"
+  },
+  "delete": {
+    "title": "ভাউচার মুছবেন?",
+    "message": "এটি স্থায়ীভাবে ভাউচার <bold>{{voucherNumber}}</bold> মুছে ফেলবে। এই কাজটি ফিরিয়ে আনা যাবে না।",
+    "cancel": "বাতিল",
+    "confirm": "মুছুন"
+  },
+  "actions": {
+    "view": "দেখুন",
+    "edit": "সম্পাদনা করুন",
+    "delete": "মুছুন",
+    "print": "প্রিন্ট করুন",
+    "approve": "অনুমোদন করুন",
+    "reject": "প্রত্যাখ্যান করুন"
+  }
+}

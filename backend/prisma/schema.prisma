@@ -1,0 +1,121 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+  moduleFormat = "cjs"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  ADMIN
+  OPERATOR
+}
+
+enum Status {
+  ACTIVE
+  INACTIVE
+}
+
+enum VoucherType {
+  INVO
+  EXVO
+}
+
+enum VoucherStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+model User {
+  id        String    @id @default(cuid())
+  name      String
+  email     String    @unique
+  password  String
+  role      Role      
+  status    Status    @default(ACTIVE)
+  lastLoginAt DateTime?
+
+  sessions        Session[]
+  incomeVouchers  IncomeVoucher[]
+  expenseVouchers ExpenseVoucher[]
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+model Session {
+  id               String   @id @default(cuid())
+  refreshTokenHash String   @unique
+  previousHashes   Json?
+  deviceInfo       String?
+  ipAddress        String?
+  expiresAt        DateTime
+
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  userId           String
+  user             User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model IncomeVoucher {
+  id             String   @id @default(cuid())
+  voucherNumber  String   @unique
+  date           DateTime @db.Date
+  amount         Decimal  @db.Decimal(18,2)
+  incomeSource   String
+  description    String
+  reference      String
+  status         VoucherStatus @default(PENDING)
+
+  createdById    String
+  createdBy      User     @relation(fields: [createdById], references: [id], onDelete: Restrict)
+
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@index([date])
+  @@index([createdById])
+  @@index([createdById, date])
+  @@index([status])
+}
+
+model ExpenseVoucher {
+  id             String   @id @default(cuid())
+  voucherNumber  String   @unique
+  date           DateTime @db.Date
+  amount         Decimal  @db.Decimal(18,2)
+  expenseHead    String
+  description    String
+  reference      String
+  status         VoucherStatus @default(PENDING)
+
+  createdById    String
+  createdBy      User     @relation(fields: [createdById], references: [id], onDelete: Restrict)
+
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@index([date])
+  @@index([createdById])
+  @@index([createdById, date])
+  @@index([status])
+}
+
+model VoucherSequence {
+  id             String      @id @default(cuid())
+
+  voucherType    VoucherType
+  year           Int
+  sequence       Int
+
+  createdAt      DateTime    @default(now())
+  updatedAt      DateTime    @updatedAt
+
+  @@unique([voucherType, year])
+}

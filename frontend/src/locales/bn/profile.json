@@ -1,0 +1,32 @@
+{
+  "title": "আমার প্রোফাইল",
+  "subtitle": "আপনার অ্যাকাউন্টের তথ্য ও নিরাপত্তা পরিচালনা করুন",
+  "infoTitle": "ব্যক্তিগত তথ্য",
+  "passwordTitle": "পাসওয়ার্ড পরিবর্তন করুন",
+  "passwordSave": "পাসওয়ার্ড আপডেট করুন",
+  "saveChanges": "পরিবর্তন সংরক্ষণ করুন",
+  "changePhoto": "ছবি পরিবর্তন করুন",
+  "roleAdmin": "অ্যাডমিন",
+  "roleOperator": "অপারেটর",
+  "joined": "যোগদান করেছেন: {{date}}",
+  "lastLogin": "সর্বশেষ লগইন: {{time}}",
+  "firstLogin": "এটাই আপনার প্রথম লগইন",
+  "profileUpdated": "প্রোফাইল সফলভাবে আপডেট হয়েছে",
+  "passwordChangedRelogin": "পাসওয়ার্ড সফলভাবে পরিবর্তিত হয়েছে, অনুগ্রহ করে আবার লগইন করুন",
+  "fields": {
+    "name": "পূর্ণ নাম",
+    "email": "ইমেইল ঠিকানা",
+    "designation": "পদবি",
+    "currentPassword": "বর্তমান পাসওয়ার্ড",
+    "currentPasswordPlaceholder": "বর্তমান পাসওয়ার্ড লিখুন",
+    "newPassword": "নতুন পাসওয়ার্ড",
+    "newPasswordPlaceholder": "নতুন পাসওয়ার্ড লিখুন",
+    "confirmPassword": "নতুন পাসওয়ার্ড নিশ্চিত করুন",
+    "confirmPasswordPlaceholder": "নতুন পাসওয়ার্ড আবার লিখুন"
+  },
+  "errors": {
+    "required": "সব ঘর পূরণ করা আবশ্যক",
+    "passwordTooShort": "পাসওয়ার্ড কমপক্ষে ৮ অক্ষরের হতে হবে",
+    "passwordMismatch": "নতুন পাসওয়ার্ড দুটি মিলছে না"
+  }
+}

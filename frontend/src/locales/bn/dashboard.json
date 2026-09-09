@@ -1,0 +1,13 @@
+{
+    "navDashboard": "ড্যাশবোর্ড",
+    "navIncomeVoucher": "আয়ের ভাউচার",
+    "navExpenseVoucher": "ব্যয়ের ভাউচার",
+    "collapseSidebar": "সাইডবার সংকুচিত করুন",
+    "expandSidebar": "সাইডবার সম্প্রসারণ করুন",
+    "closeMenu": "মেনু বন্ধ করুন",
+    "openMenu": "মেনু খুলুন",
+    "roleAdmin": "অ্যাডমিন",
+    "roleOperator": "অপারেটর",
+    "title": "ড্যাশবোর্ড",
+    "subtitle": "সংক্ষিপ্ত পরিসংখ্যান ও সারসংক্ষেপ"
+}

@@ -1,0 +1,125 @@
+{
+  "title": "Income Vouchers",
+  "subtitle": "Manage and track all income vouchers",
+  "newVoucher": "New Income Voucher",
+  "admin": "Admin",
+  "stats": {
+    "totalVouchers": "Total Vouchers",
+    "totalAmount": "Total Amount",
+    "todayVouchers": "Today's Total Vouchers",
+    "todayAmount": "Today's Total Amount"
+  },
+  "search": {
+    "label": "Search Voucher",
+    "placeholder": "Search by voucher no., source, or description",
+    "button": "Search"
+  },
+  "filter": {
+    "dateRange": "Date Range",
+    "selectDateRange": "Select date range",
+    "operator": "Operator",
+    "allOperators": "All Operators",
+    "reset": "Reset",
+    "status": "Status",
+    "allStatuses": "All Statuses",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "dateRangeModal": {
+    "title": "Select Date Range",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "last7": "Last 7 Days",
+    "month": "This Month",
+    "lastmonth": "Last Month",
+    "year": "This Year",
+    "lastyear": "Last Year",
+    "custom": "Custom Range",
+    "reset": "Reset",
+    "cancel": "Cancel",
+    "apply": "Apply Filter",
+    "noDateSelected": "No date selected",
+    "from": "From",
+    "to": "To",
+    "pickEndDate": "pick an end date",
+    "days": "({{count}} days)"
+  },
+  "table": {
+    "sl": "SL",
+    "voucherNo": "Voucher No.",
+    "date": "Date",
+    "operator": "Created By",
+    "description": "Description",
+    "source": "Source",
+    "amount": "Amount",
+    "action": "Action",
+    "showingEntries": "Showing {{from}} to {{to}} of {{total}} vouchers",
+    "noResults": "No vouchers match your search.",
+    "show": "Show",
+    "entries": "entries",
+    "loading": "Loading...",
+    "refreshing": "Refreshing...",
+    "downloadPdf": "Download PDF",
+    "downloadSummary": "Download Summary",
+    "printSummary": "Print Summary",
+    "comingSoon": "This feature is coming soon",
+    "status": "Status"
+  },
+  "pagination": {
+    "pageOf": "Page {{page}} of {{totalPages}}"
+  },
+  "errors": {
+    "loadFailed": "Could not load vouchers.",
+    "retry": "Retry"
+  },
+  "toast": {
+    "voucherCreated": "Voucher {{voucherNumber}} created successfully",
+    "voucherUpdated": "Voucher {{voucherNumber}} updated successfully",
+    "voucherDeleted": "Voucher deleted successfully",
+    "voucherApproved": "Voucher approved successfully",
+    "voucherRejected": "Voucher rejected"
+  },
+  "form": {
+    "createTitle": "New Income Voucher",
+    "editTitle": "Edit Income Voucher",
+    "date": "Date",
+    "amount": "Amount",
+    "amountPlaceholder": "e.g. 10000.00",
+    "incomeSource": "Income Source",
+    "incomeSourcePlaceholder": "e.g. Membership fee",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter detailed description",
+    "reference": "Reference",
+    "referencePlaceholder": "Reference number or note",
+    "cancel": "Cancel",
+    "create": "Create Voucher",
+    "creating": "Creating...",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "errors": {
+      "required": "All fields are required.",
+      "invalidAmount": "Enter a valid amount.",
+      "futureDate": "Voucher date cannot be in the future."
+    }
+  },
+  "detail": {
+    "title": "Voucher Details",
+    "close": "Close",
+    "createdAt": "Created At"
+  },
+  "delete": {
+    "title": "Delete Voucher?",
+    "message": "This will permanently remove voucher <bold>{{voucherNumber}}</bold>. This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirm": "Delete"
+  },
+  "actions": {
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "print": "Print",
+    "approve": "Approve",
+    "reject": "Reject"
+  }
+}

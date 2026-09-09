@@ -1,0 +1,24 @@
+{
+  "managementSystem": "Management System",
+
+  "main": "Main",
+  "reports": "Reports",
+  "administration": "Administration",
+  "settings": "Settings",
+
+  "dashboard": "Dashboard",
+  "accounts": "Accounts",
+  "incomeVouchers": "Income Vouchers",
+  "expenseVouchers": "Expense Vouchers",
+  "doLetters": "D.O. Letters",
+
+  "incomeReport": "Income Report",
+  "expenseReport": "Expense Report",
+  "summaryReport": "Summary Report",
+
+  "operators": "Operators",
+  "generalSettings": "General Settings",
+
+  "admin": "Admin",
+  "operator": "Operator"
+}

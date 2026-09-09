@@ -1,0 +1,80 @@
+{
+  "title": "অপারেটরগণ",
+  "subtitle": "অপারেটর অ্যাকাউন্ট ও অ্যাক্সেস পরিচালনা করুন",
+  "newOperator": "নতুন অপারেটর",
+  "admin": "অ্যাডমিন",
+  "stats": {
+    "total": "মোট অপারেটর",
+    "active": "সক্রিয়",
+    "inactive": "নিষ্ক্রিয়"
+  },
+  "search": {
+    "label": "অপারেটর খুঁজুন",
+    "placeholder": "নাম বা ইমেইল দিয়ে খুঁজুন",
+    "button": "খুঁজুন"
+  },
+  "filter": {
+    "status": "স্ট্যাটাস",
+    "allStatuses": "সকল স্ট্যাটাস",
+    "active": "সক্রিয়",
+    "inactive": "নিষ্ক্রিয়",
+    "reset": "রিসেট"
+  },
+  "table": {
+    "sl": "ক্রম",
+    "operator": "অপারেটর",
+    "role": "ভূমিকা",
+    "joined": "যোগদান",
+    "status": "স্ট্যাটাস",
+    "action": "কার্যক্রম",
+    "showingEntries": "{{total}} জন অপারেটরের মধ্যে {{from}} থেকে {{to}} জন অপারেটরকে দেখানো হচ্ছে",
+    "noResults": "আপনার অনুসন্ধানের সাথে মিলে এমন কোনো অপারেটর নেই।",
+    "show": "দেখান",
+    "entries": "টি এন্ট্রি",
+    "loading": "লোড হচ্ছে...",
+    "refreshing": "রিফ্রেশ হচ্ছে..."
+  },
+  "role": {
+    "operator": "অপারেটর"
+  },
+  "actions": {
+    "edit": "অপারেটর সম্পাদনা করুন",
+    "delete": "অপারেটর মুছুন"
+  },
+  "pagination": {
+    "pageOf": "পাতা {{page}} এর {{totalPages}}"
+  },
+  "errors": {
+    "loadFailed": "অপারেটর লোড করা যায়নি।",
+    "retry": "আবার চেষ্টা করুন"
+  },
+  "toast": {
+    "operatorCreated": "{{name}} কে সফলভাবে অপারেটর হিসেবে যোগ করা হয়েছে",
+    "statusUpdated": "অপারেটরের স্ট্যাটাস সফলভাবে পরিবর্তন হয়েছে"
+  },
+  "form": {
+    "editTitle": "অপারেটর সম্পাদনা করুন",
+    "createTitle": "নতুন অপারেটর যোগ করুন",
+    "fullName": "পূর্ণ নাম",
+    "fullNamePlaceholder": "যেমন: রহিম আহমেদ",
+    "email": "ইমেইল ঠিকানা",
+    "emailPlaceholder": "name@example.com",
+    "status": "স্ট্যাটাস",
+    "tempPassword": "সাময়িক পাসওয়ার্ড",
+    "tempPasswordPlaceholder": "সাময়িক পাসওয়ার্ড তৈরি করুন",
+    "cancel": "বাতিল",
+    "saveChanges": "পরিবর্তন সংরক্ষণ করুন",
+    "create": "অপারেটর তৈরি করুন",
+    "creating": "তৈরি হচ্ছে...",
+    "errors": {
+      "required": "সব ঘর পূরণ করুন।",
+      "passwordLength": "পাসওয়ার্ড কমপক্ষে ৮ ক্যারেক্টার হতে হবে।"
+    }
+  },
+  "delete": {
+    "title": "অপারেটর মুছবেন?",
+    "message": "এটি স্থায়ীভাবে <bold>{{name}}</bold> কে সরিয়ে দেবে এবং অ্যাক্সেস বাতিল করবে। এই কাজটি ফিরিয়ে আনা যাবে না।",
+    "cancel": "বাতিল",
+    "confirm": "মুছুন"
+  }
+}

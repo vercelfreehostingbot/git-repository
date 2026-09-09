@@ -1,0 +1,24 @@
+{
+  "managementSystem": "ব্যবস্থাপনা সিস্টেম",
+
+  "main": "প্রধান",
+  "reports": "রিপোর্ট",
+  "administration": "অ্যাডমিনিস্ট্রেশন",
+  "settings": "সেটিংস",
+
+  "dashboard": "ড্যাশবোর্ড",
+  "accounts": "অ্যাকাউন্টস",
+  "incomeVouchers": "আয় ভাউচার",
+  "expenseVouchers": "ব্যয় ভাউচার",
+  "doLetters": "ডি.ও. লেটার",
+
+  "incomeReport": "আয় রিপোর্ট",
+  "expenseReport": "ব্যয় রিপোর্ট",
+  "summaryReport": "সারসংক্ষেপ রিপোর্ট",
+
+  "operators": "অপারেটর",
+  "generalSettings": "সাধারণ সেটিংস",
+
+  "admin": "অ্যাডমিন",
+  "operator": "অপারেটর"
+}

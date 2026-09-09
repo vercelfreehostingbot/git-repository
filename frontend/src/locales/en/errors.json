@@ -1,0 +1,34 @@
+{
+  "generic": "Something went wrong, please try again.",
+  "server": "Server error occurred, please try again later.",
+  "network": "Network issue, please check your internet connection.",
+  "codes": {
+    "USER_NOT_FOUND": "User not found",
+    "EMAIL_ALREADY_EXISTS": "An account with this email already exists",
+    "ADMIN_CREATION_FORBIDDEN": "Admin accounts cannot be created this way",
+    "INCOME_VOUCHER_NOT_FOUND": "Income voucher not found",
+    "EXPENSE_VOUCHER_NOT_FOUND": "Expense voucher not found",
+    "VOUCHER_DATE_IN_FUTURE": "Voucher date cannot be in the future",
+    "INVALID_CREDENTIALS": "Incorrect email or password",
+    "ACCOUNT_NOT_ACTIVE": "Your account is currently {{status}}",
+    "INVALID_TOKEN_TYPE": "Invalid session, please log in again",
+    "SESSION_NOT_FOUND": "Session not found",
+    "INVALID_SESSION": "Invalid session",
+    "SESSION_EXPIRED": "Your session has expired, please log in again",
+    "REFRESH_TOKEN_NOT_FOUND": "Session not found, please log in again",
+    "REFRESH_TOKEN_REUSE_DETECTED": "You've been logged out of all devices for security, please log in again",
+    "SESSION_REFRESH_CONFLICT": "Couldn't refresh your session, please try again",
+    "VALIDATION_ERROR": "The submitted data is invalid",
+    "DUPLICATE_ENTRY": "This entry already exists",
+    "RECORD_NOT_FOUND": "Record not found",
+    "INVALID_REFERENCE": "Invalid related record reference",
+    "DATABASE_ERROR": "A database error occurred",
+    "FORBIDDEN": "You don't have permission to do this",
+    "INVALID_CURRENT_PASSWORD": "Current password is incorrect",
+    "INTERNAL_ERROR": "Server error occurred, please try again later."
+  },
+  "statusLabels": {
+    "ACTIVE": "active",
+    "INACTIVE": "inactive"
+  }
+}

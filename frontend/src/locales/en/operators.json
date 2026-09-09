@@ -1,0 +1,80 @@
+{
+  "title": "Operators",
+  "subtitle": "Manage operator accounts and access",
+  "newOperator": "New Operator",
+  "admin": "Admin",
+  "stats": {
+    "total": "Total Operators",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "search": {
+    "label": "Search Operator",
+    "placeholder": "Search by name or email",
+    "button": "Search"
+  },
+  "filter": {
+    "status": "Status",
+    "allStatuses": "All Statuses",
+    "active": "Active",
+    "inactive": "Inactive",
+    "reset": "Reset"
+  },
+  "table": {
+    "sl": "SL",
+    "operator": "Operator",
+    "role": "Role",
+    "joined": "Joined",
+    "status": "Status",
+    "action": "Action",
+    "showingEntries": "Showing {{from}} to {{to}} of {{total}} operators",
+    "noResults": "No operators match your search.",
+    "show": "Show",
+    "entries": "entries",
+    "loading": "Loading...",
+    "refreshing": "Refreshing..."
+  },
+  "role": {
+    "operator": "Operator"
+  },
+  "actions": {
+    "edit": "Edit operator",
+    "delete": "Delete operator"
+  },
+  "pagination": {
+    "pageOf": "Page {{page}} of {{totalPages}}"
+  },
+  "errors": {
+    "loadFailed": "Could not load operators.",
+    "retry": "Retry"
+  },
+  "toast": {
+    "operatorCreated": "{{name}} has been added as an operator",
+    "statusUpdated": "Operator status updated successfully"
+  },
+  "form": {
+    "editTitle": "Edit Operator",
+    "createTitle": "Add New Operator",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "e.g. Rahim Ahmed",
+    "email": "Email Address",
+    "emailPlaceholder": "name@example.com",
+    "status": "Status",
+    "tempPassword": "Temporary Password",
+    "tempPasswordPlaceholder": "Generate Temporary Password",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "create": "Create Operator",
+    "creating": "Creating...",
+    "errors": {
+      "required": "All fields are required.",
+      "passwordLength": "Password must be at least 8 characters."
+    }
+  },
+  "delete": {
+    "title": "Delete Operator?",
+    "message": "This will permanently remove <bold>{{name}}</bold> and revoke access. This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirm": "Delete"
+  }
+}

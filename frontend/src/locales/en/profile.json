@@ -1,0 +1,32 @@
+{
+  "title": "My Profile",
+  "subtitle": "Manage your account information and security",
+  "infoTitle": "Personal Information",
+  "passwordTitle": "Change Password",
+  "passwordSave": "Update Password",
+  "saveChanges": "Save Changes",
+  "changePhoto": "Change photo",
+  "roleAdmin": "Administrator",
+  "roleOperator": "Operator",
+  "joined": "Joined: {{date}}",
+  "lastLogin": "Last login: {{time}}",
+  "firstLogin": "This is your first login",
+  "profileUpdated": "Profile updated successfully",
+  "passwordChangedRelogin": "Password changed successfully — please log in again",
+  "fields": {
+    "name": "Full Name",
+    "email": "Email Address",
+    "designation": "Designation",
+    "currentPassword": "Current Password",
+    "currentPasswordPlaceholder": "Enter current password",
+    "newPassword": "New Password",
+    "newPasswordPlaceholder": "Enter new password",
+    "confirmPassword": "Confirm New Password",
+    "confirmPasswordPlaceholder": "Re-enter new password"
+  },
+  "errors": {
+    "required": "All fields are required",
+    "passwordTooShort": "Password must be at least 8 characters",
+    "passwordMismatch": "New passwords do not match"
+  }
+}

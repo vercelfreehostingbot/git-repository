@@ -1,0 +1,12 @@
+{
+  "title": "General Settings",
+  "subtitle": "Appearance, language, and security",
+  "appearance": {
+    "title": "Appearance",
+    "darkMode": "Dark Mode",
+    "darkModeDescription": "Switch between light and dark theme"
+  },
+  "language": {
+    "title": "Language"
+  }
+}

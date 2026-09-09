@@ -1,0 +1,22 @@
+{
+  "appNameShort": "ECMS",
+  "appNameFull": "Electoral Constituency Management System",
+  "officeTitle": "Office of the Honourable Member of Parliament",
+  "constituency": "17 Lalmonirhat-2",
+  "notifications": "Notifications",
+  "noPendingApprovals": "No vouchers pending approval",
+  "pendingIncomeVouchers": "{{count}} income voucher(s) pending approval",
+  "pendingExpenseVouchers": "{{count}} expense voucher(s) pending approval",
+  "clickToReview": "Click to review",
+  "save": "Save",
+  "saving": "Saving...",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "edit": "Edit",
+  "loading": "Loading...",
+  "languageToggle": "English",
+  "logout": "Log out",
+  "openSidebar": "Open sidebar",
+  "comingSoon": "This feature is coming soon",
+  "copyright": "© {{year}} Electoral Constituency Management System. All rights reserved."
+}
